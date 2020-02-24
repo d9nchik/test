@@ -32,7 +32,6 @@ void create(char a[])
     {
         cout << "Input title "; getline(cin, b.title);
         cout << "Input author "; getline(cin, b.author);
-        file.write((char*)&b, sizeof(TBook));
     }
     file.close();
 
